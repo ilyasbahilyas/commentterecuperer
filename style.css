@@ -1,0 +1,70 @@
+body, html {
+    height: 75%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: 	#F9429E ;
+    color : white; 
+    
+}
+
+
+.container {
+    text-align: center;
+    
+}
+
+.boutons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#boutonGauche {
+    background-color: green;
+    color: white; /* Pour une meilleure visibilité du texte */
+}
+#boutonMusique {
+    background-color: 	 #FEFEE2;
+    color: black; /* Pour une meilleure visibilité du texte */
+}
+#boutonDroit {
+    background-color: red;
+    color: white; /* Pour une meilleure visibilité du texte */
+}
+#lancerSite {
+    background-color: #ffff00;
+    height: 175%;
+
+}
+@keyframes grow {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
+@keyframes shrink {
+    from { transform: scale(1); }
+    to { transform: scale(0.9); }
+}
+
+
+.bouton-animate-grow {
+    animation: grow 0.5s ease forwards;
+}
+
+.bouton-animate-shrink {
+    animation: shrink 0.2s ease forwards;
+}
+.bouton-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
